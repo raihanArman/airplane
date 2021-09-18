@@ -46,7 +46,7 @@ class MainPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: kBackgroundColor,
       body: Stack(
-        children: [buildContent(), Text('main page'), customBottomNavigation()],
+        children: [buildContent(), customBottomNavigation()],
       ),
     );
   }

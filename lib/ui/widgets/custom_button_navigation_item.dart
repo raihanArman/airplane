@@ -23,7 +23,7 @@ class CustomButtonNavigationItem extends StatelessWidget {
         ),
         Container(
             width: 30,
-            height: 30,
+            height: 2,
             decoration: BoxDecoration(
                 color: isSelected ? kPrimaryColor : kTransparentColor,
                 borderRadius: BorderRadius.circular(18)))

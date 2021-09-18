@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:airplane/shared/theme.dart';
 import 'package:airplane/ui/widgets/custom_button.dart';
 import 'package:airplane/ui/widgets/custom_text_form_field.dart';
@@ -68,7 +66,7 @@ class SignUpPage extends StatelessWidget {
       }
 
       return Container(
-        margin: EdgeInsets.symmetric(horizontal: 20, vertical: 30),
+        margin: EdgeInsets.symmetric(horizontal: 0, vertical: 30),
         decoration: BoxDecoration(
             color: kWhiteCOlor,
             borderRadius: BorderRadius.circular(defaultRadius)),

@@ -18,6 +18,7 @@ class CustomTextFormField extends StatelessWidget {
     return Container(
       margin: EdgeInsets.only(bottom: 20),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
             title,
